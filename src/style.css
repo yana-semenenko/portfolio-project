@@ -1,0 +1,135 @@
+:root {
+  --text-color: #1b2430;
+  --secondary-text-color: #55587d;
+  --primary-color: #712b75;
+  --primary-color-light: #eadfea;
+  --accent-color: #c74b50;
+  --shadow: 0 4px 12px rgba(27, 36, 48, 0.15);
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+  background-color: hsl(300, 10%, 98%);
+}
+h1 {
+  color: var(--text-color);
+  font-size: 44px;
+  text-align: center;
+  margin: 30px 0 15px;
+}
+
+.heading-strong {
+  color: var(--primary-color);
+  font-size: 54px;
+}
+
+h2 {
+  color: var(--secondary-text-color);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+h3 {
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  transition: all 200ms ease-in-out !important;
+}
+.contact-me {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin: 20px;
+  box-shadow: var(--shadow);
+  text-transform: capitalize;
+}
+
+.contact-me:hover {
+  background-color: #46244c;
+  border: 1px solid #46244c;
+  color: white;
+}
+
+.about-me {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 10px 16px;
+  margin: 20px;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+
+.about-me:hover {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: var(--primary-color);
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.card-button {
+  background-color: var(--primary-color-light);
+  color: var(--text-color);
+  font-weight: 600;
+}
+.card-button:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.card-text-custom {
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 1.4;
+}
+.custom-link {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin: 10px;
+  text-align: center;
+}
+.custom-link:hover {
+  color: #46244c;
+  text-decoration: underline;
+}
+
+.main-info-item {
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 8px;
+  background: var(--primary-color-light);
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.shadow-custom {
+  box-shadow: var(--shadow);
+}
+
+img.img-custom {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  transition: all 250ms ease-in-out;
+}
+
+a > img.img-custom:hover {
+  position: relative;
+  top: -4px;
+  left: 4px;
+}
