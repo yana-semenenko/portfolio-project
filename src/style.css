@@ -38,6 +38,21 @@ h3 {
 h4 {
   font-size: 22px;
 }
+h6.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 0;
+  color: white;
+}
+
+.position-company {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+  color: var(--primary-color-light);
+}
 
 a {
   text-decoration: none;
@@ -120,6 +135,9 @@ a {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
+}
+.overline-custom {
+  color: var(--accent-color);
 }
 
 .shadow-custom {
