@@ -46,18 +46,22 @@
   <body class="mb-5">
     <!----------------------------------------- Navigation ------------------------------------------>
     <nav
-      class="navbar navbar-expand-sm navbar-light sticky-top"
+      class="navbar shadow-sm navbar-expand-sm navbar-light sticky-top"
       style="background-color: var(--primary-color-light)"
     >
       <div class="container">
-        <a href="/" class="navbar-brand" alt="Homepage">
+        <a href="/" class="navbar-brand active" alt="Homepage">
           <img
             src="/media/icons/favicon.svg"
-            alt="Bootstrap"
-            width="30"
-            height="30"
-          />Yana Sem</a
-        >
+            alt="Yana Semenenko"
+            width="35"
+            height="35"
+            class="me-1"
+          />
+          <span style="color: var(--primary-color); font-weight: 500"
+            >Yana Sem</span
+          >
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -71,15 +75,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="/" alt="Homepage">Home</a>
-            <a class="nav-item nav-link" href="/about.html" alt="About me"
-              >About me</a
+            <a class="nav-item nav-link" href="/portfolio.html" alt="Portfolio"
+              >Portfolio</a
             >
+            <a class="nav-item nav-link" href="/" alt="Services">Services</a>
+            <a class="nav-item nav-link" href="/" alt="About me">About me</a>
             <a
-              class="nav-item nav-link"
-              href="/about.html#contact"
-              alt="Contact me"
-              >Contact me</a
+              class="secondary-btn-custom nav-item nav-link ms-2"
+              href="/"
+              alt="Let’s chat!"
+              >Let’s chat!</a
             >
           </div>
         </div>
@@ -108,7 +113,7 @@
             class="d-flex justify-content-center justify-content-md-start my-sm-4 my-2"
           >
             <a
-              href="/about.html#contact"
+              href="/portfolio.html"
               class="text-nowrap primary-btn-custom"
               title="Jump to see my portfolio"
               >Check my portfolio</a

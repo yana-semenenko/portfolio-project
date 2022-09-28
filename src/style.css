@@ -88,6 +88,16 @@ a {
   text-transform: capitalize;
 }
 
+nav .secondary-btn-custom {
+  margin: 0;
+  padding: 8px 12px;
+}
+
+nav .secondary-btn-custom:hover {
+  margin: 0;
+  padding: 8px 12px;
+}
+
 .secondary-btn-custom:hover {
   font-size: 16px;
   font-weight: 500;
@@ -127,14 +137,15 @@ a {
 }
 
 .main-info-item {
-  max-width: 800px;
+  max-width: 900px;
   padding: 20px;
   border-radius: 8px;
-  background: var(--primary-color-light);
-  color: var(--text-color);
+  background-color: hsl(300, 10%, 98%);
+  /* box-shadow: var(--shadow); */
+  color: var(--secondary-text-color);
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 .overline-custom {
   color: var(--accent-color);
@@ -177,6 +188,19 @@ img.img-custom:hover {
 }
 .advantage-card:hover p {
   color: var(--primary-color-light);
+}
+.nav-pills .nav-link.active {
+  color: white !important;
+  background-color: var(--primary-color) !important;
+}
+.nav-pills-bg-soft {
+  background-color: var(--primary-color-light) !important;
+  padding: 12px 0;
+  border-radius: 8px;
+}
+
+.nav-pills-bg-soft .nav-link {
+  color: var(--primary-color) !important;
 }
 
 @media (max-width: 992px) {

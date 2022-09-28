@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Hello, nice to see you on my portfolio site! I love challenges a lot, so let’s get started!"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2117740295.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Graphic and UX Designer | Yana Semenenko</title>
+    <link rel="icon" type="image/x-icon" href="/media/icons/favicon.png" />
+  </head>
+  <body class="mb-5">
+    <!----------------------------------------- Navigation ------------------------------------------>
+    <nav
+      class="navbar shadow-sm navbar-expand-sm navbar-light sticky-top"
+      style="background-color: var(--primary-color-light)"
+    >
+      <div class="container">
+        <a href="/" class="navbar-brand active" alt="Homepage">
+          <img
+            src="/media/icons/favicon.svg"
+            alt="Yana Semenenko"
+            width="35"
+            height="35"
+            class="me-1"
+          />
+          <span style="color: var(--primary-color); font-weight: 500"
+            >Yana Sem</span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-item nav-link active"
+              href="/portfolio.html"
+              alt="Portfolio"
+              >Portfolio</a
+            >
+            <a class="nav-item nav-link" href="/" alt="Services">Services</a>
+            <a class="nav-item nav-link" href="/" alt="About me">About me</a>
+            <a
+              class="secondary-btn-custom nav-item nav-link ms-2"
+              href="/"
+              alt="Let’s chat!"
+              >Let’s chat!</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!------------------------------------------- Heading + intro ------------------------------------------->
+    <div class="container">
+      <h2 class="text-center mt-5">Portfolio</h2>
+      <div class="d-flex justify-content-center mb-4">
+        <article class="main-info-item shadow-sm d-none d-lg-block">
+          I've been working as a Graphic designer for seven years. Having
+          started my career from the very basics as a Tech designer in companies
+          providing customized printing services, I received crucial practical
+          skills needed to establish my theoretical knowledge. Last few years I
+          devoted myself to gaining experience in UX Design and Business
+          Analysis.
+        </article>
+      </div>
+      <!------------------------------------------- Quick Navigation ------------------------------------------->
+      <!---------------------- TABS  ------------------------>
+      <ul
+        class="nav nav-pills nav-pills-bg-soft justify-content-sm-center mb-4 px-3"
+      >
+        <!-- Tab item -->
+        <li class="nav-item me-2 me-sm-5">
+          <button
+            class="nav-link mb-2 mb-md-0 active"
+            href="#web-design"
+            data-toggle="pill"
+            data-bs-target="#web-design"
+            type="button"
+            role="tab"
+            aria-controls="web-design"
+            aria-selected="true"
+          >
+            Web Design
+          </button>
+        </li>
+        <!-- Tab item -->
+        <li class="nav-item me-2 me-sm-5">
+          <button
+            class="nav-link mb-2 mb-md-0"
+            href="#ux-design"
+            data-toggle="pill"
+            data-bs-target="#ux-design"
+            type="button"
+            role="tab"
+            aria-controls="ux-design"
+            aria-selected="false"
+            tabindex="-1"
+          >
+            UX Design
+          </button>
+        </li>
+        <!-- Tab item -->
+        <li class="nav-item me-2 me-sm-5">
+          <button
+            class="nav-link mb-2 mb-md-0"
+            href="#graphic-design"
+            data-bs-toggle="pill"
+            data-bs-target="#course-pills-tabs-3"
+            type="button"
+            role="tab"
+            aria-controls="course-pills-tabs-3"
+            aria-selected="false"
+            tabindex="-1"
+          >
+            Graphic Design
+          </button>
+        </li>
+        <!-- Tab item -->
+        <li class="nav-item me-2 me-sm-5">
+          <button
+            class="nav-link mb-2 mb-md-0"
+            href="#illustration"
+            data-bs-toggle="pill"
+            data-bs-target="#course-pills-tabs-4"
+            type="button"
+            role="tab"
+            aria-controls="course-pills-tabs-4"
+            aria-selected="false"
+            tabindex="-1"
+          >
+            Illustration
+          </button>
+        </li>
+      </ul>
+      <!---------------------- TABS CONTENT  ------------------------>
+      <div class="tab-content">
+        <!------------ Web Design tab -->
+        <div class="tab-pane fade show active" id="web-design">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-----------------------  Colophon Books -->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/bookstore.png"
+                  class="img-fluid card-img-top"
+                  alt="Bookstore project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Colophon Books</h5>
+                  <p class="card-text">
+                    A small corner bookstore has grown to establish an online
+                    bookstore for involving international community
+                    and exchanging specific experiences without limits.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/116473817/Colophon-Books-Website-Identity"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-----------------------  AllyApp -->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/video-conf.png"
+                  class="img-fluid card-img-top"
+                  alt="AllyApp project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">AllyApp</h5>
+                  <p class="card-text">
+                    Live audio, screen sharing, and AI are sprinkled in to keep
+                    everyone on the same page. Make meetings more personal and
+                    encourage teamwork even at a distance.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/116473817/Colophon-Books-Website-Identity"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-----------------------  Nestle-->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/nestle.png"
+                  class="img-fluid card-img-top"
+                  alt="Bookstore project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Outsiders Pizza</h5>
+                  <p class="card-text">
+                    Website rebranding based on UX analysis, investigation
+                    drop-offs in performance at each stage of the user journey,
+                    and revealing patterns in the traffic.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/109763259/Pizza-Company-LP-Rebranding"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-----------------------  beintrade -->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/beintrade.png"
+                  class="img-fluid card-img-top"
+                  alt="Bookstore project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">BE.Intrade</h5>
+                  <p class="card-text">
+                    Unlock commercial opportunities for the B2B sector between
+                    the countries, create a reliable business hub, considering
+                    all flawsof the existing solutions.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/126400925/BEIntrade-B2B-Platform"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-----------------------  ticketizer -->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/ticketizer.png"
+                  class="img-fluid card-img-top"
+                  alt="Bookstore project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ticketing Platform</h5>
+                  <p class="card-text">
+                    Ticketing Platforms must support broad behavioral patterns:
+                    some users are happy to choose from what's prepared for
+                    them, some search the best one variant.
+                  </p>
+                  <a
+                    href="https://dribbble.com/shots/18750488-Ticketing-Platform-Homepage"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-----------------------  VYR -->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/vyr.png"
+                  class="img-fluid card-img-top"
+                  alt="Bookstore project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">VYR Tours</h5>
+                  <p class="card-text">
+                    We differ from a regular travel agency: we sincerely love
+                    Carpathians and cannot imagine life outside. New experience
+                    makes us look Carpathians in a new way.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/111115485/VYR-tours-Branding-and-Landing-page"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------ UX design tab -->
+        <div class="tab-pane fade" id="ux-design">
+          <div
+            class="card mb-4 border-0 shadow-custom mx-auto"
+            style="max-width: 1200px"
+          >
+            <div class="row no-gutters align-items-center">
+              <div class="col-md-6">
+                <img
+                  src="/media/images/fitness-app.png"
+                  class="card-img img-fluid"
+                  alt="FitTrack app thumbnail"
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body p-4">
+                  <h3 class="card-title pb-2">FitTrack: Sports and Fitness</h3>
+                  <p class="card-text card-text-custom">
+                    To stay courageous while getting in shape is not that easy.
+                    Not only you need to form new habits and try to retain them,
+                    but you should also track and amplify daily activity.
+                  </p>
+                  <a
+                    href="https://dribbble.com/shots/17982363-Fit-track-app"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    title="Jump to FitTrack project"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of TABS -->
+
+      <!-- Third card -->
+    </div>
+  </body>
+</html>

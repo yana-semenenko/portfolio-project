@@ -41,11 +41,22 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-sm navbar-light sticky-top"
+      class="navbar shadow-sm navbar-expand-sm navbar-light sticky-top"
       style="background-color: var(--primary-color-light)"
     >
       <div class="container">
-        <a href="/" class="navbar-brand" alt="Homepage">Yana Sem</a>
+        <a href="/" class="navbar-brand active" alt="Homepage">
+          <img
+            src="/media/icons/favicon.svg"
+            alt="Yana Semenenko"
+            width="35"
+            height="35"
+            class="me-1"
+          />
+          <span style="color: var(--primary-color); font-weight: 500"
+            >Yana Sem</span
+          >
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -59,18 +70,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="/" alt="Homepage">Home</a>
+            <a class="nav-item nav-link" href="/" alt="Portfolio">Portfolio</a>
+            <a class="nav-item nav-link" href="/" alt="Services">Services</a>
+            <a class="nav-item nav-link" href="/" alt="About me">About me</a>
             <a
-              class="nav-item nav-link active"
-              href="/about.html"
-              alt="About me"
-              >About me</a
-            >
-            <a
-              class="nav-item nav-link"
-              href="/about.html#contact"
-              alt="Contact me"
-              >Contact me</a
+              class="secondary-btn-custom nav-item nav-link ms-2"
+              href="/"
+              alt="Let’s chat!"
+              >Let’s chat!</a
             >
           </div>
         </div>

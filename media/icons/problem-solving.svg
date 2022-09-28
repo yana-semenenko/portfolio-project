@@ -3,16 +3,15 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 700 700" style="enable-background:new 0 0 700 700;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.5;fill:url(#SVGID_1_);}
+	.st0{opacity:0.6;fill:url(#SVGID_1_);}
 	.st1{fill:#C74B50;}
 	.st2{fill:#712B75;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="552.4031" y1="296.7597" x2="718.5639" y2="45.2636" gradientTransform="matrix(-2.8757 0.9736 0.4088 1.2075 2019.017 -513.6251)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="223.0746" y1="27.1798" x2="478.7381" y2="414.1444" gradientTransform="matrix(0.3584 0.9336 -0.9336 0.3584 355.3273 38.1617)">
 	<stop  offset="0" style="stop-color:#712B75;stop-opacity:0"/>
 	<stop  offset="0.9553" style="stop-color:#712B75"/>
 </linearGradient>
-<path class="st0" d="M288.2,68.7c575.1-244.6,203,686.8,48.4,595.5c-10.4-6.2-18.5-16.6-22.9-28.7c-16-43.7-88.3-219-239-279.8
-	c-27.1-10.9-41.4-44.9-30.5-72.6C66.7,225.7,126.9,137.3,288.2,68.7z"/>
+<circle class="st0" cx="325" cy="375" r="293.6"/>
 <g>
 	<path class="st1" d="M153.4,436.7c-2.2-5-3.9-10.6-9-14c-8.4-6.2-21.3-3.9-26.9,5c-6.2,10.1,0,20.7,4.5,30.2
 		c9.5,20.2,21.8,39.2,36.4,56c29.1,33,66.1,58.8,107.5,73.4c23.5,8.4,47.6,12.9,72.2,14c11.8,0.6,25.2,1.1,29.7-12.3
