@@ -46,6 +46,14 @@ h6.card-title {
   color: white;
 }
 
+article h5 {
+  color: var(--secondary-text-color);
+  font-weight: 600;
+}
+.article-shadow {
+  box-shadow: var(--shadow);
+}
+
 .position-company {
   font-size: 16px;
   font-weight: 400;
@@ -57,6 +65,13 @@ h6.card-title {
 a {
   text-decoration: none;
   transition: all 200ms ease-in-out !important;
+}
+a.nav-link {
+  color: var(--secondary-text-color) !important;
+}
+a.nav-link.active {
+  color: var(--text-color) !important;
+  font-weight: 500 !important;
 }
 .primary-btn-custom {
   font-size: 16px;
@@ -91,11 +106,13 @@ a {
 nav .secondary-btn-custom {
   margin: 0;
   padding: 8px 12px;
+  color: var(--primary-color) !important;
 }
 
 nav .secondary-btn-custom:hover {
   margin: 0;
   padding: 8px 12px;
+  color: white !important;
 }
 
 .secondary-btn-custom:hover {
@@ -201,6 +218,22 @@ img.img-custom:hover {
 
 .nav-pills-bg-soft .nav-link {
   color: var(--primary-color) !important;
+}
+
+.fa-linkedin,
+.fa-square-behance,
+.fa-square-dribbble {
+  font-size: 35px;
+  line-height: 1.6;
+  padding: 0 15px;
+  color: var(--accent-color);
+  transition: all 200ms ease-in-out;
+}
+
+.fa-linkedin:hover,
+.fa-square-behance:hover,
+.fa-square-dribbble:hover {
+  color: hsl(358, 53%, 34%);
 }
 
 @media (max-width: 992px) {

@@ -50,7 +50,7 @@
       style="background-color: var(--primary-color-light)"
     >
       <div class="container">
-        <a href="/" class="navbar-brand active" alt="Homepage">
+        <a href="/" class="navbar-brand" alt="Homepage">
           <img
             src="/media/icons/favicon.svg"
             alt="Yana Semenenko"
@@ -83,38 +83,44 @@
             >
             <a class="nav-item nav-link" href="/" alt="Services">Services</a>
             <a class="nav-item nav-link" href="/" alt="About me">About me</a>
-            <a
-              class="secondary-btn-custom nav-item nav-link ms-2"
-              href="/"
-              alt="Let’s chat!"
-              >Let’s chat!</a
-            >
+            <div class="d-flex">
+              <a
+                class="secondary-btn-custom nav-item nav-link my-3 my-sm-0 ms-sm-2 text-nowrap"
+                href="/"
+                alt="Let’s chat!"
+                >Let’s chat!</a
+              >
+            </div>
           </div>
         </div>
       </div>
     </nav>
     <!------------------------------------------- Heading + intro ------------------------------------------->
     <div class="container">
-      <h2 class="text-center mt-5">Portfolio</h2>
+      <h2 class="text-center mt-4 mt-lg-5 mb-0 mb-lg-2">Portfolio</h2>
       <div class="d-flex justify-content-center mb-4">
-        <article class="main-info-item shadow-sm d-none d-lg-block">
-          I've been working as a Graphic designer for seven years. Having
-          started my career from the very basics as a Tech designer in companies
+        <article class="article-shadow main-info-item d-none d-lg-block">
+          <h5>
+            Hi, I am happy to see you here! Just a few words about my
+            professional background
+          </h5>
+          I've been working as a Graphic designer for seven years. Having
+          started my career from the very basics as a Tech designer in companies
           providing customized printing services, I received crucial practical
           skills needed to establish my theoretical knowledge. Last few years I
-          devoted myself to gaining experience in UX Design and Business
+          devoted myself to gaining experience in UX Design and Business
           Analysis.
         </article>
       </div>
       <!------------------------------------------- Quick Navigation ------------------------------------------->
       <!---------------------- TABS  ------------------------>
       <ul
-        class="nav nav-pills nav-pills-bg-soft justify-content-sm-center mb-4 px-3"
+        class="nav nav-pills nav-pills-bg-soft justify-content-center mb-4 px-3"
       >
         <!-- Tab item -->
         <li class="nav-item me-2 me-sm-5">
           <button
-            class="nav-link mb-2 mb-md-0 active"
+            class="nav-link mb-2 mb-md-0 active text-nowrap"
             href="#web-design"
             data-toggle="pill"
             data-bs-target="#web-design"
@@ -129,7 +135,7 @@
         <!-- Tab item -->
         <li class="nav-item me-2 me-sm-5">
           <button
-            class="nav-link mb-2 mb-md-0"
+            class="nav-link mb-2 mb-md-0 text-nowrap"
             href="#ux-design"
             data-toggle="pill"
             data-bs-target="#ux-design"
@@ -145,13 +151,13 @@
         <!-- Tab item -->
         <li class="nav-item me-2 me-sm-5">
           <button
-            class="nav-link mb-2 mb-md-0"
+            class="nav-link mb-2 mb-md-0 text-nowrap"
             href="#graphic-design"
-            data-bs-toggle="pill"
-            data-bs-target="#course-pills-tabs-3"
+            data-toggle="pill"
+            data-bs-target="#graphic-design"
             type="button"
             role="tab"
-            aria-controls="course-pills-tabs-3"
+            aria-controls="graphic-design"
             aria-selected="false"
             tabindex="-1"
           >
@@ -161,13 +167,13 @@
         <!-- Tab item -->
         <li class="nav-item me-2 me-sm-5">
           <button
-            class="nav-link mb-2 mb-md-0"
+            class="nav-link mb-2 mb-md-0 text-nowrap"
             href="#illustration"
-            data-bs-toggle="pill"
-            data-bs-target="#course-pills-tabs-4"
+            data-toggle="pill"
+            data-bs-target="#illustration"
             type="button"
             role="tab"
-            aria-controls="course-pills-tabs-4"
+            aria-controls="illustration"
             aria-selected="false"
             tabindex="-1"
           >
@@ -177,9 +183,9 @@
       </ul>
       <!---------------------- TABS CONTENT  ------------------------>
       <div class="tab-content">
-        <!------------ Web Design tab -->
+        <!--------------------------------------------------------------------- Web Design tab -->
         <div class="tab-pane fade show active" id="web-design">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <!-----------------------  Colophon Books -->
             <div class="col">
               <div class="card border-0 shadow-custom">
@@ -221,7 +227,7 @@
                     encourage teamwork even at a distance.
                   </p>
                   <a
-                    href="https://www.behance.net/gallery/116473817/Colophon-Books-Website-Identity"
+                    href="https://www.behance.net/gallery/119637403/Allyapp-landing-page-concept"
                     type="button"
                     class="btn btn-sm card-button"
                     target="_blank"
@@ -332,35 +338,239 @@
             </div>
           </div>
         </div>
-
-        <!------------ UX design tab -->
+        <!---------------------------------------------------------------------- UX design tab -->
         <div class="tab-pane fade" id="ux-design">
-          <div
-            class="card mb-4 border-0 shadow-custom mx-auto"
-            style="max-width: 1200px"
-          >
-            <div class="row no-gutters align-items-center">
-              <div class="col-md-6">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-----------------------  FitTrack -->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
                 <img
                   src="/media/images/fitness-app.png"
-                  class="card-img img-fluid"
-                  alt="FitTrack app thumbnail"
+                  class="img-fluid card-img-top"
+                  alt="FitTrack project"
                 />
-              </div>
-              <div class="col-md-6">
-                <div class="card-body p-4">
-                  <h3 class="card-title pb-2">FitTrack: Sports and Fitness</h3>
-                  <p class="card-text card-text-custom">
+                <div class="card-body">
+                  <h5 class="card-title">FitTrack</h5>
+                  <p class="card-text">
                     To stay courageous while getting in shape is not that easy.
-                    Not only you need to form new habits and try to retain them,
-                    but you should also track and amplify daily activity.
+                    Not only you need to form healthy habits, but you should
+                    also track and amplify daily activity.
                   </p>
                   <a
                     href="https://dribbble.com/shots/17982363-Fit-track-app"
                     type="button"
                     class="btn btn-sm card-button"
                     target="_blank"
-                    title="Jump to FitTrack project"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-----------------------  CrystalPharma -->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/crystal.png"
+                  class="img-fluid card-img-top"
+                  alt="Crystal Pharma project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Crystal Pharma</h5>
+                  <p class="card-text">
+                    Website redesign to build an easy cusomer journey from the
+                    client’s awareness of Company’s values to successful
+                    purchase and further longtime partnership.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/91751715/Crystal-Pharma-Rebranding-Vol2"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-----------------------  Investment platform-->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/investment.png"
+                  class="img-fluid card-img-top"
+                  alt="Investment platform project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Investment platform</h5>
+                  <p class="card-text">
+                    It’s crucial to give a variety of portfolios to novice app
+                    users so that inexperienced ones can boost their skills and
+                    choose a personal trading strategy.
+                  </p>
+                  <a
+                    href="https://dribbble.com/shots/17919913-Investment-platform-Mobile-app"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------------------------------------------------------------- graphic-design tab -->
+        <div class="tab-pane fade" id="graphic-design">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-----------------------  Wildix Magazine-->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/graph-wildix.png"
+                  class="img-fluid card-img-top"
+                  alt="Wildix Magazine project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Wildix Magazine</h5>
+                  <p class="card-text">
+                    In a world in which information is always more digital and
+                    “fast,” Wildix has decided to go against the grain and make
+                    a publication on paper available.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/102540243/Wildix-Magazine-8"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-----------------------  Adolbo -->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/graph-adolbo.png"
+                  class="img-fluid card-img-top"
+                  alt="Adolbo project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Adolbo</h5>
+                  <p class="card-text">
+                    Expander has the unique ability to both produce and sell
+                    products on the Amazon store. The package has to be
+                    functional, reflect the high quality of the product.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/120859825/Adolbo-Packaging-Design"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!----------------------- Andro lemonade-->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/graph-andro.png"
+                  class="img-fluid card-img-top"
+                  alt="Andro Lemonade project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Andro Lemonade</h5>
+                  <p class="card-text">
+                    Local beverages company ANDRO is launching a conceptually
+                    new series of lemonades for both children (with freshes) and
+                    adults (with their own Limoncello).
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/84116753/ANDRO-Lemonade-labels-and-promo"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------------------------------------------------------------- Illustration tab -->
+        <div class="tab-pane fade" id="illustration">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-----------------------  Maria-->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/illust-maria.png"
+                  class="img-fluid card-img-top"
+                  alt="Maria project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Maria by Ulas Samchuk</h5>
+                  <p class="card-text">
+                    Searching for an appropriate style for my cover series, I
+                    was inspired by Munch’s graphics, so I’ve chosen charcoal
+                    with its peculiar texture and minimalism.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/81972613/Book-cover-concept-MARIA-by-Ulas-Samchuk"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-----------------------  Oksana -->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/illust-oksana.png"
+                  class="img-fluid card-img-top"
+                  alt="Serdeshna Oksana project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Serdeshna Oksana</h5>
+                  <p class="card-text">
+                    New generations perceive information quickly and categorize
+                    it as “Worth / Not Worth”. Through stylized illustrations,
+                    it’s easier to captivate such readers.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/82222681/Book-cover-SERDESHNA-OKSANA-by-Kvitka-Osnovianenko"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
+                    >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!----------------------- Unnessesary woman-->
+            <div class="col">
+              <div class="card border-0 shadow-custom">
+                <img
+                  src="/media/images/illust-woman.png"
+                  class="img-fluid card-img-top"
+                  alt="An Unnecessary Woman project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">An Unnecessary Woman</h5>
+                  <p class="card-text">
+                    The novel follows the experiences of an isolated 72-year-old
+                    woman, Aaliya Saleh, who is a shut-in in Beirut, cognizing
+                    how she deals with her changing life.
+                  </p>
+                  <a
+                    href="https://www.behance.net/gallery/97279401/Book-cover-An-Unnecessary-Woman-by-R-Alameddine"
+                    type="button"
+                    class="btn btn-sm card-button"
+                    target="_blank"
                     >Learn more <i class="fa-solid fa-arrow-right ps-1"></i
                   ></a>
                 </div>
@@ -370,8 +580,21 @@
         </div>
       </div>
       <!-- end of TABS -->
-
-      <!-- Third card -->
+      <h4 class="text-center mt-4 mt-md-5">
+        Follow me for more works and case studies!
+      </h4>
+      <!-- ICONS Be, Dr, LinkedIN -->
+      <div class="d-flex my-3 justify-content-center">
+        <a href="https://www.behance.net/yana_semenenko" target="_blank">
+          <i class="fa-brands fa-square-behance"></i>
+        </a>
+        <a href="https://dribbble.com/yana_semenenko" target="_blank">
+          <i class="fa-brands fa-square-dribbble"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/yana-semenenko" target="_blank">
+          <i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
     </div>
   </body>
 </html>
