@@ -9,7 +9,7 @@
 
 body {
   font-family: "Assistant", sans-serif;
-  background-color: hsl(300, 10%, 98%);
+  background-color: #faf9fa;
 }
 
 h1 {
@@ -141,16 +141,31 @@ nav .secondary-btn-custom:hover {
   line-height: 1.4;
 }
 .custom-link {
-  display: block;
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--primary-color);
+  /* display: block; */
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--accent-color);
   margin: 10px;
-  text-align: center;
+  text-align: center !important;
 }
 .custom-link:hover {
-  color: #46244c;
+  color: #85292c;
   text-decoration: underline;
+}
+
+h5 .custom-link {
+  color: var(--accent-color);
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h5 .custom-link:hover {
+  color: #85292c;
+  text-decoration: underline;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .main-info-item {
@@ -233,7 +248,13 @@ img.img-custom:hover {
 .fa-linkedin:hover,
 .fa-square-behance:hover,
 .fa-square-dribbble:hover {
-  color: hsl(358, 53%, 34%);
+  color: #85292c;
+}
+
+h5 .fa-linkedin {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 @media (max-width: 992px) {
@@ -254,4 +275,33 @@ img.img-custom:hover {
   .img-custom {
     max-width: 60%;
   }
+}
+
+/* Work experience styles */
+
+.dates {
+  font-size: 22px;
+  line-height: 1.6;
+  font-weight: 300;
+  color: var(--secondary-text-color);
+}
+
+.my-position {
+  font-size: 22px;
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.company {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.list-group-item-custom {
+  background-color: #faf9fa !important;
 }
