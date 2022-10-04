@@ -46,6 +46,14 @@ h6.card-title {
   color: white;
 }
 
+.brand-name-custom {
+  color: var(--primary-color);
+  font-family: "Mali", cursive;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+}
+
 article h5 {
   color: var(--secondary-text-color);
   font-weight: 600;
@@ -67,11 +75,14 @@ a {
   transition: all 200ms ease-in-out !important;
 }
 a.nav-link {
-  color: var(--secondary-text-color) !important;
+  color: #55587ddd !important;
+  /* font-family: "Inconsolata", monospace;
+  font-weight: 400; */
 }
 a.nav-link.active {
-  color: var(--text-color) !important;
-  font-weight: 500 !important;
+  color: #46244c !important;
+  /* font-family: "Inconsolata", monospace;
+  font-weight: 500 !important; */
 }
 .primary-btn-custom {
   font-size: 16px;
