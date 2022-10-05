@@ -314,7 +314,7 @@ h5 .fa-linkedin {
 }
 
 .list-group-item-custom {
-  background-color: #faf9fa !important;
+  background-color: hsl(236, 19%, 96%) !important;
 }
 
 .list-group-item-custom-accordion {
@@ -366,4 +366,21 @@ h5 .fa-linkedin {
   background-color: #46244c;
   border-radius: 0;
   color: #faf9fa;
+}
+
+/* stats */
+.number {
+  font-family: "Mali", cursive;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--accent-color);
+}
+
+.subject {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--secondary-text-color);
+  max-width: 120px;
 }
