@@ -33,7 +33,8 @@ h2 {
   font-weight: 500;
   margin: 0;
 }
-.hero-h2 {
+.hero-h2,
+h2.accordion-header {
   font-family: "Assistant", sans-serif;
 }
 h3 {
