@@ -20,16 +20,21 @@ h1 {
 }
 
 .heading-strong {
+  font-family: "Mali", cursive;
   color: var(--primary-color);
   font-size: 54px;
 }
 
 h2 {
+  font-family: "Mali", cursive;
   color: var(--secondary-text-color);
   font-size: 34px;
   line-height: 1.4;
   font-weight: 500;
   margin: 0;
+}
+.hero-h2 {
+  font-family: "Assistant", sans-serif;
 }
 h3 {
   color: var(--text-color);
@@ -162,6 +167,11 @@ nav .secondary-btn-custom:hover {
 .custom-link:hover {
   color: #85292c;
   text-decoration: underline;
+}
+
+footer .custom-link {
+  margin: 0;
+  font-weight: 400;
 }
 
 h5 .custom-link {
@@ -331,6 +341,11 @@ h5 .fa-linkedin {
   background-color: hsl(358, 53%, 95%);
 }
 
+.info-author {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 /* ------------------------------------ Accordion --------------------- */
 
 .accordion-button {
@@ -373,7 +388,7 @@ h5 .fa-linkedin {
   font-family: "Mali", cursive;
   font-size: 60px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.3;
   color: var(--accent-color);
 }
 
